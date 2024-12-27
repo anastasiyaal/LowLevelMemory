@@ -1,32 +1,28 @@
-# Prerequisites
-*.d
+# Mac OS X
+*.DS_Store
 
-# Compiled Object files
-*.slo
-*.lo
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Generated files
 *.o
-*.obj
+*.pyc
+*.hi
 
-# Precompiled Headers
-*.gch
-*.pch
+#Python modules
+MANIFEST
+dist/
+build/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Backup files
+*~.nib
+\#*#
+.#*
+*.swp
+*.un~
