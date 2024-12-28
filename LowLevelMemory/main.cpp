@@ -45,5 +45,10 @@ int main(int argc, const char * argv[]) {
     a.Free();
     void* n = a.Allocate(1024);
     void* q = a.Allocate(1);
+    // insert code here...
+    //
+    //
+    std::cout << "Hello, World!\n";
+    //
     return 0;
 }
