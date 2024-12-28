@@ -40,6 +40,9 @@ int main(int argc, const char * argv[]) {
     SimpleAllocator a(1024);
     void* f = a.Allocate(128);
     void* s = a.Allocate(128);
+    void* y = a.Allocate(128);
+    void* u = a.Allocate(128);
+    void* i = a.Allocate(128);
     void* g = a.Allocate(128);
     void* h = a.Allocate(128);
     a.Free();
