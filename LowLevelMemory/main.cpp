@@ -38,13 +38,7 @@ int main(int argc, const char * argv[]) {
     }
     
     SimpleAllocator a(1024);
-    void* f = a.Allocate(128);
-    void* s = a.Allocate(128);
-    void* g = a.Allocate(128);
-    void* h = a.Allocate(128);
-    a.Free();
-    void* n = a.Allocate(1024);
-    void* q = a.Allocate(1);
+    
     // insert code here...
     //
     //
