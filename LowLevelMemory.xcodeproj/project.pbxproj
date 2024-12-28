@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		852EC33C2D1ED604006513B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 852EC33B2D1ED604006513B8 /* main.cpp */; };
+		85B0444C2D2013D800B96F69 /* SimpleAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B0444B2D2013D800B96F69 /* SimpleAllocator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		852EC3382D1ED604006513B8 /* LowLevelMemory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LowLevelMemory; sourceTree = BUILT_PRODUCTS_DIR; };
 		852EC33B2D1ED604006513B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85B0444A2D2013A400B96F69 /* SimpleAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleAllocator.h; sourceTree = "<group>"; };
+		85B0444B2D2013D800B96F69 /* SimpleAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAllocator.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				852EC33B2D1ED604006513B8 /* main.cpp */,
+				85B0444A2D2013A400B96F69 /* SimpleAllocator.h */,
+				85B0444B2D2013D800B96F69 /* SimpleAllocator.cpp */,
 			);
 			path = LowLevelMemory;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				852EC33C2D1ED604006513B8 /* main.cpp in Sources */,
+				85B0444C2D2013D800B96F69 /* SimpleAllocator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
